@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>혜영네컷</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!-- 사진 들어가는 영역 -->
+        <div class="photos">
+            <div class="photo-frame" id="image1"
+            
+                onmouseover="showText(1)"
+                onmouseout="hideText(1)"
+                onclick="alertText(1)"
+
+            >
+                <span class="photo-description" id="desc1">
+                    별명은 <3<br>
+                    개구리 입니다🐸
+                </span>
+            </div>
+
+            <div class="photo-frame" id="image2"
+            
+                onmouseover="showText(2)"
+                onmouseout="hideText(2)"
+                onclick="alertText(2)"
+            >
+                <span class="photo-description" id="desc2">
+                    졸업하기<br>
+                    싫어욧 !!📚
+
+                </span>
+            </div>
+
+            <div class="photo-frame" id="image3"
+            
+                onmouseover="showText(3)"
+                onmouseout="hideText(3)"
+                onclick="alertText(3)"
+            
+            >
+                <span class="photo-description" id="desc3">
+                    친구들과 즐겁게<br>
+                    학교 생활 중 🎶
+                </span>
+            </div>
+
+            <div class="photo-frame" id="image4">
+                <!-- <span class="photo-description" id="desc4">
+                    네 번째 이미지 설명
+                </span> -->
+                <iframe class="video" src="https://www.youtube.com/embed/_Io6pysw0Gk" frameborder="0">
+
+                </iframe>
+            </div>
+        </div>
+
+        <!-- 아래 정보 영역 -->
+        <div class="footer">
+            <p class="f-title">Happy Coding Time</p>
+            <p class="f-date">2023.03.16</p>
+        </div>
+
+    </div>
+</body>
+</html>
